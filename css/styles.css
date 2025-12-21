@@ -703,3 +703,8 @@ body{
   height: 42px;
   background-size: 42px 42px;
 }
+
+/* Force Bootstrap collapse behavior even if old theme CSS interferes */
+.navbar .collapse:not(.show) { display: none !important; }
+.navbar .collapse.show { display: block !important; }
+
