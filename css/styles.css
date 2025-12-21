@@ -708,3 +708,11 @@ body{
 .navbar .collapse:not(.show) { display: none !important; }
 .navbar .collapse.show { display: block !important; }
 
+/* Navbar: remove Bootstrap default toggler border (keep icon) */
+.navbar .navbar-toggler {
+  border: 0;
+}
+
+.navbar .navbar-toggler:focus {
+  box-shadow: none; /* BS5 uses box-shadow for focus ring */
+}
