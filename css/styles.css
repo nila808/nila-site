@@ -647,3 +647,46 @@ body{
 .navbar-collapse{
   background: rgba(0,0,0,0.70);
 }
+
+/* --- Navbar mobile layout polish (BS5) --- */
+.navbar{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+/* Ensure the burger icon is visible with navbar-dark */
+.navbar-dark .navbar-toggler{
+  border-color: rgba(255,255,255,0.25);
+}
+.navbar-dark .navbar-toggler-icon{
+  filter: none;
+}
+
+/* Mobile: dropdown panel under the bar */
+@media (max-width: 991.98px){
+  .navbar-collapse{
+    margin-top: 0.75rem;
+    padding: 0.75rem 1rem;
+    border-top: 1px solid rgba(255,255,255,0.12);
+  }
+  .navbar-nav{
+    gap: 0.35rem;
+    text-align: center;
+  }
+  .navbar-nav .nav-link,
+  .navbar-nav a{
+    display: block;
+    padding: 0.6rem 0.25rem;
+    letter-spacing: 0.08em;
+  }
+}
+
+/* Desktop: keep items on one line and centered */
+@media (min-width: 992px){
+  .navbar-collapse{
+    justify-content: center;
+  }
+  .navbar-nav{
+    gap: 1.75rem;
+  }
+}
