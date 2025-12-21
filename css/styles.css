@@ -690,3 +690,16 @@ body{
     gap: 1.75rem;
   }
 }
+
+/* --- Big burger (grid) button --- */
+.navbar .navbar-toggler{
+  width: 56px;
+  height: 56px;
+  padding: 0;
+  border: 0;
+}
+.navbar .navbar-toggler-icon{
+  width: 42px;
+  height: 42px;
+  background-size: 42px 42px;
+}
