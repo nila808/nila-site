@@ -1,0 +1,47 @@
+
+.flexslider {
+    height: 700px;
+	/* border: blue dashed 1px; */
+}
+
+
+.flex-caption {
+	color: #cdcdcd;
+    text-align: center;
+
+}
+
+
+
+
+.flex-caption {
+
+}
+
+
+/* Slider Next/Prev Arrows */
+.flex-direction-nav a {
+    height: 50px;
+}
+
+
+.flex-direction-nav a:before {
+    color: #25d8ff;
+    font-size: 30px;
+
+}
+
+
+/* Slider Page Pagination circles */
+.flex-control-nav, .flex-control-paging {
+	/* border: red dashed 1px; */
+}
+
+.flex-control-paging > li a {
+    background: #25d8ff;
+}
+
+.flex-control-paging li a.flex-active {
+    background: #25d8ff;
+    opacity: 0.5;
+}

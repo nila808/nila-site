@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# temp / debug
+_live_html/
+*.log
+
+# editor
+.vscode/
+.idea/
+
+# node / tooling (future-proof)
+node_modules/
+
+# python
+__pycache__/
