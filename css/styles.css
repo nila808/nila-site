@@ -627,3 +627,23 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 .asterisk {
           color: red;
         }
+
+/* --- BS5 navbar sanity --- */
+.navbar.fixed-top{
+  background: rgba(0,0,0,0.70);
+  z-index: 9999;
+}
+body{
+  padding-top: 72px; /* prevent content under fixed navbar */
+}
+.navbar .navbar-nav .nav-link,
+.navbar a{
+  color: #fff;
+}
+.navbar .navbar-nav .nav-link:hover{
+  opacity: 0.85;
+}
+/* keep collapse menu readable on mobile */
+.navbar-collapse{
+  background: rgba(0,0,0,0.70);
+}
