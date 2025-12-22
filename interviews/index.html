@@ -281,12 +281,7 @@
     <script data-cfasync="false" data-wpfc-render="false" id="monsterinsights-frontend-script-js-extra">
       var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx,jpg,png","inbound_paths":"[]","home_url":"https:\/\/djnila.com","hash_tracking":"false","v4_id":"G-DWF9NJZ7RH"};
     </script>
-    <script id="nfd-wonder-blocks-utilities-js-after">
-      (()=>{var l=class{constructor({clientId:e,...n}={}){this.options={activeClass:"nfd-wb-animated-in",root:null,rootMargin:"0px",threshold:0,...n}}observeElements(e,n=null,t=!1){if(!("IntersectionObserver"in window)||!e"block-editor-block-preview__content-iframe"))return;function o(c,s){this._mutationCallback(c,s,n)}let i=new IntersectionObserver(this._handleIntersection.bind(this),this.options),r=new MutationObserver(o.bind(this)),b=new MutationObserver(this._handleClassMutation.bind(this));e.forEach(c=>{let s=c;c.classList.contains("nfd-wb-reveal-right")&&(s=c.parentElement),i.observe(s),t&&(b.observe(s,{attributes:!0,attributeFilter:["class"]}),r.observe(s,{attributes:!0,attributeFilter:["class"]}))})}_handleIntersection(e,n){e.forEach(t=>{t.isIntersecting&&(t.target.classList.add(this.options.activeClass),t.target.querySelectorAll(".nfd-wb-animate").forEach(o=>{o.classList.add(this.options.activeClass)}),n.unobserve(t.target))})}_handleClassMutation(e){e.forEach(n=>{if(n"attributes"){let t=n.target;t.classList.contains("nfd-wb-animated-in")||t.classList.add("nfd-wb-animated-in")}})}_mutationCallback(e,n,t=null){e.forEach(o=>{if(o"attributes"){let i=o.target;t&&t===i.getAttribute("data-block")&&(i.getAttribute("data-replay-animation")===null&&(i.setAttribute("data-replay-animation",!0),requestAnimationFrame(()=>{i.removeAttribute("data-replay-animation")})),n.disconnect())}})}};document.addEventListener("DOMContentLoaded",()=>{d()});document.addEventListener("wonder-blocks/toolbar-button-added",()=>{d()});document.addEventListener("wonder-blocks/animation-changed",a=>{let e=a)});document.addEventListener("wonder-blocks/block-order-changed",()=>{d()});window.onload=function(){d()};function d(a=null){let e=document.body"block-editor-page")||!!a||document.body"block-editor-iframe__body"),n=e".interface-interface-skeleton__content"):null,t=new l({root:n,threshold:0});requestAnimationFrame(()=>{let o=Array.from(document.getElementsByClassName("nfd-wb-animate"));t.observeElements(o,a,e)})}function u(a){(a||document).querySelectorAll(".wp-block-group.nfd-is-linked-group:not(.group-linked), .wp-block-cover.nfd-is-linked-group:not(.group-linked)").forEach(t=>{var o=t.getAttribute("data-link-url")||t.dataset.linkUrl;if(!o||!t.parentNode)return;let i=o.trim();o=/^(https)\/\//i.test(i)"http://"+i;let r=document.createElement("a");r.href=o,(t.getAttribute("data-link-blank")==="1"||t.dataset.linkBlank==="1")&&(r.target="_blank",r.rel="noopener"),t.classList.add("group-linked"),[...t.attributes].map(({name:c,value:s})=>{r.setAttribute(c,s)}),r.innerHTML=t.innerHTML,t.parentNode.replaceChild(r,t)}),p()}function p(){document.addEventListener("click",a=>{a.target.closest(".block-editor-page .wp-block-group.nfd-is-linked-group, .block-editor-page .wp-block-cover.nfd-is-linked-group")&&a.preventDefault()},{capture:!0,passive:!1})}document.readyState==="loading""DOMContentLoaded",()=>u(document)):u(document);document.addEventListener("wonder-blocks/group-links-apply",a=>{u(a)});})();
-
-//# sourceURL=nfd-wonder-blocks-utilities-js-after
-    </script>
-    <script id="jquery-core-js" src="../wp-includes/js/jquery/jquery.min.js">
+<script id="jquery-core-js" src="../wp-includes/js/jquery/jquery.min.js">
     </script>
     <script id="jquery-migrate-js" src="../wp-includes/js/jquery/jquery-migrate.min.js">
     </script>
@@ -534,8 +529,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    </script>
-    </script>
     <script crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js">
     </script>
     <!-- <script>document.write('<script src="https://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js"></' + 'script>')</script> -->
